@@ -13,6 +13,7 @@ def match(words)
       match_array << match 
     end 
   end 
-return 
+match_array
+end 
 
 end
