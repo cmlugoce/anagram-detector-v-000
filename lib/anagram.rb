@@ -6,7 +6,7 @@ def initialization(word)
   @word = word 
 end 
 
-def match(array)
-  
+def match(words)
+  match_array = []
 
 end
