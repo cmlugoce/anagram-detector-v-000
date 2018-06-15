@@ -10,7 +10,7 @@ def match(string)
   match_array = []
   string.each do |word|
     if word.split("").sort == self.word.split("").sort
-      match_array << match 
+      match_array << word 
     end 
   end 
 match_array
