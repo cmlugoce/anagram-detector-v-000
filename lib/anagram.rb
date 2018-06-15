@@ -8,7 +8,7 @@ end
 
 def match(string)
   match_array = []
-  string.each do |match|
+  string.each do |word|
     if match.split("").sort == word.split("").sort
       match_array << match 
     end 
