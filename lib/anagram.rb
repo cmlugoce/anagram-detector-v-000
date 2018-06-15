@@ -6,9 +6,9 @@ def initialization(word)
   @word = word 
 end 
 
-def match(string)
+def match(array)
   match_array = []
-  string.each do |word|
+  array.each do |word|
     if word.split("").sort == self.word.split("").sort
       match_array << word 
     end 
