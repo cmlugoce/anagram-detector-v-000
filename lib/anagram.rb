@@ -9,7 +9,7 @@ end
 def match(string)
   match_array = []
   string.each do |match|
-    if match.split("").sort == word.split("")
+    if match.split("").sort == word.split("").sort
       match_array << match 
     end 
   end 
